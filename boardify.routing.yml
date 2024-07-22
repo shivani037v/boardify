@@ -1,0 +1,7 @@
+boardify.notices:
+  path: '/community-notices'
+  defaults:
+    _controller: 'Drupal\boardify\Controller\NoticeController::showNotices'
+    _title: 'Community Notices'
+  requirements:
+    _permission: 'access content'

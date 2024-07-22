@@ -1,0 +1,5 @@
+theme:
+  boardify_notices:
+    variables:
+      notices: []
+

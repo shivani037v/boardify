@@ -1,0 +1,11 @@
+<div class="boardify-notice-board">
+  <h2>Community Notices</h2>
+  <ul>
+    {% for notice in notices %}
+      <li>
+        <h3>{{ notice.getTitle() }}</h3>
+        <div>{{ notice.get('body').value|raw }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

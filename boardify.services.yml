@@ -1,0 +1,3 @@
+services:
+  boardify.notice_service:
+    class: Drupal\boardify\NoticeService
